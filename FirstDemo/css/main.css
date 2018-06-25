@@ -1,0 +1,88 @@
+body
+{
+    margin:0;
+}
+header
+{
+    padding : 1em;
+    background-color: midnightblue;
+    
+}
+
+header h1
+{
+    padding:0em 8em;
+    display: inline;
+    position:absolute;
+    color:white;
+}
+nav 
+{
+    
+    display: inline;
+    position: absolute;
+    padding-left:48em;
+    
+}
+ul
+{
+    list-style: none;
+}
+nav li
+{
+    display: inline;
+    color:white;
+    font-family: serif;
+}
+a
+{
+    color: white;
+}
+a:hover
+{
+    color:darkorange;
+}
+.section-inner
+{
+    float:left;
+}
+.s1
+{
+    /* background-color: beige; */
+    background-image:url('../images/parallex-bg.jpg');
+    
+    /* width:100%; */
+    background-size:cover;
+    
+    padding: 1em;
+    color:darkgreen;
+    background-attachment: fixed;
+}
+h2
+{
+    text-align: center;
+}
+.s1 h2
+{
+    color:darkgreen;
+    padding: 1em 5em;
+}
+.s1 h3, .s1 ol
+{
+    padding: 0em 15em;
+}
+.s2
+{
+    background-image:url('../images/fifa-mascot.jpg'),  url('../images/ground-bg.jpg');
+    background-repeat: no-repeat, repeat-x; /*check with only repeat*/    
+    height:300px;
+    background-position:5% 50%, 0% 0%; 
+    background-size:auto,contain;
+    
+}
+footer
+{
+    background-color:yellowgreen;
+    padding : 1em;
+    text-align: center;
+}
